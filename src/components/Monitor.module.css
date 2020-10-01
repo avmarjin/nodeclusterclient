@@ -1,0 +1,12 @@
+.container {
+    margin: auto;
+    margin-top: 200px;
+    width: 650px;
+}
+
+.field {
+    padding: 16px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 0.875rem;
+}
+
