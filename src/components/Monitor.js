@@ -38,7 +38,14 @@ const Monitor = (props) => {
     }
 
     if(props.isMasterChange) {
-        return (<CircularStatic />)
+        return (
+            <div className={useStyle.container}>
+                <div className={useStyle.reload}>
+                    <CircularStatic />
+                </div>
+                
+            </div>
+        )
     }
     return (
         <div className={useStyle.container}>
